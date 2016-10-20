@@ -17,8 +17,13 @@
 		padding: 0;
 		margin: 0;
 		overflow: hidden;
-		background-image: url('/Content/pokemontimeline/Graphics/Pictures/aguarde.jpg');
+		background-image: url('Graphics/Pictures/aguarde.jpg');
 		font-family: "RPG"!important;
+		text-align: center;
+	}
+
+	#game{
+		margin: 20px auto;
 	}
 
     html{
@@ -66,7 +71,14 @@
 		
  </head>
   <body style="font-family: 'RPG'">
-	<div id="game"><canvas id="canvas" width="640" height="480" autofocus="autofocus"></canvas></div>
+  	<div class="wrapper">
+  		<h1>20 anos de Pokémon: Timeline Interativa</h1>
+  		<p style="padding: 15px 0px">Controle o treinador utilizando as setas de seu teclado, e utilize a barra de espaço para interagir com o jogo.</p>
+		<div id="game"><canvas id="canvas" width="640" height="480" autofocus="autofocus"></canvas></div>
+		<i>Todos os direitos da marca Pokémon e suas imagens pertencem a The Pokémon Company</i><br/><br />
+            <p>Idealizado e projetado por <b>André "Jomon" Aranovich</b><br />Programação e adaptação por <b>Mario Toledo</b></p>
+            <p></p>
+	</div>
 	<script>
 
 
