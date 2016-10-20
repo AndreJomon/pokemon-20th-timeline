@@ -4,7 +4,37 @@
   
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<title></title>
+	<title>20 anos de Pokémon: Timeline Interativa</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="description" content="Acompanhe a trajetória da franquia Pokémon da melhor forma possível: jogando!">
+    <meta name="author" content="Mario Toledo">
+    <meta name="keywords" content="pokémon, timeline, interativa" />
+
+	<meta itemprop="name" content="20 anos de Pokémon: Timeline Interativa">
+    <meta itemprop="description" content="Acompanhe a trajetória da franquia Pokémon da melhor forma possível: jogando!">
+    <meta itemprop="image" content="metaPokemonTimeline.jpg">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="20 anos de Pokémon: Timeline Interativa">
+    <meta name="twitter:description" content="Acompanhe a trajetória da franquia Pokémon da melhor forma possível: jogando!">
+    <meta name="twitter:creator" content="@mario_toledo">
+    <meta name="twitter:image:src" content="metaPokemonTimeline.jpg">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="20 anos de Pokémon: Timeline Interativa" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://mariotoledo.github.io/Pokemon20thTimeline/" />
+    <meta property="og:image" content="metaPokemonTimeline.jpg" />
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="360" />
+    <meta property="og:description" content="Acompanhe a trajetória da franquia Pokémon da melhor forma possível: jogando!" />
+    <meta property="og:site_name" content="N-Party" />
+
+    <meta property="article:tag" content="pokémon, timeline, interativa" />
+
+    <meta property="article:author" content="mariotoledo12" />
+
 	<script src="rpgjs/canvasengine.min.js"></script>
 	<script src="rpgjs/rpgjs.min.js"></script>
 	<script src="plugins/gamepad.js"></script>
@@ -17,13 +47,21 @@
 		padding: 0;
 		margin: 0;
 		overflow: hidden;
-		background-image: url('Graphics/Pictures/aguarde.jpg');
 		font-family: "RPG"!important;
 		text-align: center;
+		background-color: #E0E0E0;
+		font-family: Helvetica, Arial;
+	}
+
+	.wrapper{
+		background-color: #FFF;
+		max-width: 680px;
+		padding: 20px;
 	}
 
 	#game{
 		margin: 20px auto;
+		background-image: url('Graphics/Pictures/aguarde.jpg');
 	}
 
     html{
@@ -72,12 +110,14 @@
  </head>
   <body style="font-family: 'RPG'">
   	<div class="wrapper">
+  		<img src="metaPokemonTimeline.jpg" style="width: 100%" />
   		<h1>20 anos de Pokémon: Timeline Interativa</h1>
   		<p style="padding: 15px 0px">Controle o treinador utilizando as setas de seu teclado, e utilize a barra de espaço para interagir com o jogo.</p>
 		<div id="game"><canvas id="canvas" width="640" height="480" autofocus="autofocus"></canvas></div>
 		<i>Todos os direitos da marca Pokémon e suas imagens pertencem a The Pokémon Company</i><br/><br />
-            <p>Idealizado e projetado por <b>André "Jomon" Aranovich</b><br />Programação e adaptação por <b>Mario Toledo</b></p>
-            <p></p>
+            <p>Idealizado e projetado por <b>André "Jomon" Aranovich</b><br />Programação e adaptação por <b><a href="https://github.com/mariotoledo">Mario Toledo</a></b></p>
+            <p>Projeto feito utilizando <a href="http://rpgjs.com/">rpgjs</a> e muito amor. <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/mariotoledo/Pokemon20thTimeline" data-icon="octicon-eye" data-style="mega" data-count-href="/mariotoledo/Pokemon20thTimeline/watchers" data-count-api="/repos/mariotoledo/Pokemon20thTimeline#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch mariotoledo/Pokemon20thTimeline on GitHub">Watch</a></p>
 	</div>
 	<script>
 
@@ -96,5 +136,7 @@
             }
         }, false);
 </script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>
