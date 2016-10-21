@@ -5,7 +5,7 @@
 
 This is an interative timeline made to celebrate the 20th Pokémon Anniversary in feb/2016, using [rpgjs](http://rpgjs.com/) and passion for the franchise. The main idea is to hilight the key events from Pokémon history, including events from the brazilian scenario, where the player controls the trainer from GameBoy's first games while learns the history of Pokémon in a imersive way.
 
-### [Check it out right here](https://mariotoledo.github.io/Pokemon20thTimeline)
+# [Check it out right here](https://mariotoledo.github.io/Pokemon20thTimeline)
 
 ## Authors
 - *André "Jomon" Florentino*: Concept and project design
